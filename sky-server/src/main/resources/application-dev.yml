@@ -9,3 +9,5 @@ sky:
   alioss:
     endpoint: oss-cn-hangzhou.aliyuncs.com
     bucket-name: 1cq1
+    access-key-id: ${ALIYUN_OSS_ACCESS_KEY_ID}
+    access-key-secret: ${ALIYUN_OSS_ACCESS_KEY_SECRET}
