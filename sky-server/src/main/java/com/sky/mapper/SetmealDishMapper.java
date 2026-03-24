@@ -30,4 +30,10 @@ public interface SetmealDishMapper {
      * @return
      */
     Page<SetmealVO> pageQuery(SetmealPageQueryDTO setmealPageQueryDTO);
+
+    /**
+     * 根据套餐id删除套餐和菜品的关联关系
+     * @param ids
+     */
+    void deleteBySetmealId(List<Long> ids);
 }
